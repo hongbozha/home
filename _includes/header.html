@@ -12,7 +12,7 @@
         <a aria-label="My Twitter" target="_blank" href="https://twitter.com/{{ site.twitter_username }}"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
         {% endif %}
         {% if site.phone_username %}
-        <a aria-label="My Phone" target="_blank" href="SMS:{{ site.instagram_username }}?body=message_body"><i class="icon fa fa-phone" aria-hidden="true"></i></a>
+        <a aria-label="My Phone" target="_blank" href="sms:{{ site.phone_username }}"><i class="icon fa fa-phone" aria-hidden="true"></i></a>
         {% endif %}
         {% if site.facebook_username %}
         <a aria-label="My Facebook" target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}"><i class="icon fa fa-facebook" aria-hidden="true"></i></a>
@@ -28,6 +28,12 @@
         {% elsif site.medium_url %}
         <a aria-label="My Medium" target="_blank" href="https://{{ site.medium_url }}"><i class="icon fa fa-medium" aria-hidden="true"></i></a>
         {% endif %}
+         {% if site.instagram_username %}
+        <a aria-label="My Instagram" target="_blank" href="SMS:{{ site.instagram_username }}?body=message_body"><i class="icon fa fa-phone" aria-hidden="true"></i></a>
+        {% endif %}
+         {% if site.wechat_username %}
+        <a aria-label="My Wechat" target="_blank" href="#" onclick="clickWechat()"><i class="icon fa fa-phone" aria-hidden="true"></i></a>
+        {% endif %}
       </div>
       <!--<div class="header-links">-->
         <!-- <a class="link" href="#about" data-scroll>About Me</a> -->
@@ -35,3 +41,7 @@
   </div>
   <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
 </div>
+
+<script>
+  function clickWechat(){alert("copied");}
+</script>
