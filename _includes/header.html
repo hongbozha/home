@@ -32,7 +32,7 @@
         <a aria-label="My Instagram" target="_blank" href="SMS:{{ site.instagram_username }}?body=message_body"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
         {% endif %}
          {% if site.wechat_username %}
-        <a aria-label="My Wechat" target="_blank" href="#" onclick="clickWechat()"><i class="icon fa fa-weixin" aria-hidden="true"></i></a>
+        <a aria-label="My Wechat" target="_blank" href="#" onclick="clickWechat( site.instagram_username )"><i class="icon fa fa-weixin" aria-hidden="true"></i></a>
         {% endif %}
       </div>
       <!--<div class="header-links">-->
@@ -43,5 +43,8 @@
 </div>
 
 <script>
-  function clickWechat(){alert("copied");}
+  function clickWechat(text){
+    navigator.clipboard.writeText(text)
+    alert("copied");
+  }
 </script>
