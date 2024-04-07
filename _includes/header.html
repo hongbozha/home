@@ -44,8 +44,8 @@
 
 <script>
   function clickWechat(){
-    var copytext =  site.wechat_username
-    navigator.clipboard.writeText(copytext.value)
+    var copytext = document.getElementsBtId('aria-label');
+    navigator.clipboard.writeText(copytext.value);
     alert("copied");
   }
 </script>
