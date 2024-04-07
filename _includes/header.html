@@ -45,7 +45,7 @@
 <script>
   function clickWechat(t){
    
-    navigator.clipboard.writeText(t);
+    navigator.clipboard.writeText(document.getElementById("wechat").target);
     alert("copied");
   }
 </script>
