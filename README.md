@@ -1,8 +1,6 @@
-# A personal webpage
+# A Personal Webpage
 
 Folked from Jekyll theme, Minimal Resume.
-
-# Credits
 <p align="center">
   <img src="https://github.com/murraco/jekyll-theme-minimal-resume/blob/master/screenshot.png" width="90%" />
 </p>
