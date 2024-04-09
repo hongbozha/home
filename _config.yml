@@ -1,15 +1,15 @@
 # Site settings
 title: HONGBO ZHA
-description: Resume
+description: personal website of hongbo zha
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Experience Developer
+username: Experience Researcher
 user_description: I optimize UI functions and AI algorithms for famous apps, e.g., TikTok.
 user_description2: I am pleased to communicate with professionals and academia.
 user_description3: I can give support on your exciting research projects.
-user_title: Hongbo Zha, PM, ex-BA
+user_title: Hongbo Zha, PM, ex-Strategy
 email: hongbo_zha@outlook.com
 twitter_username:
 phone_username: 008615162140513
