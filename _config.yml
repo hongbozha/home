@@ -23,4 +23,3 @@ medium_url:
 gplus_username:
 
 exclude: ['package.json', 'node_modules', 'vendor']
-
