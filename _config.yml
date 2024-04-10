@@ -22,5 +22,5 @@ medium_username:
 medium_url:
 gplus_username:
 
-exclude: ['package.json', 'src', 'node_modules', 'vendor']
+exclude: ['package.json', 'node_modules', 'vendor']
 
