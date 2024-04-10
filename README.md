@@ -1,6 +1,3 @@
 # A Personal Webpage
 
-Folked from Jekyll theme, Minimal Resume.
-<p align="center">
-  <img src="https://github.com/murraco/jekyll-theme-minimal-resume/blob/master/screenshot.png" width="90%" />
-</p>
+Folked from Jekyll theme, Minimal Resume, credits @ [Mauricio Urraco]([https://github.com/nrandecker](https://github.com/murraco/jekyll-theme-minimal-resume/tree/master))
